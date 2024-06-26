@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header{
+    background-color: black;
+    padding-top: 30px;
+}
+
+.wordlogo h1{
+    color: white;
+}
+
+.imglogo{
+    border: 2px solid white;
+    font-size: 50px;
+    width: 80px;
+}
+
+.imglogo{
+    color: white;
+}
+
+.pro h1{
+    text-align: center;
+}
+
+.link{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 30px;
+
+}
+
+.logo i{
+    padding-right: 150px;
+    size: 30px;
+
+}
+
+.link a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;  
+}
+
+.logo:hover .link{
+    display: flex;
+}
+
+.carousel-item .active img{
+    width: 500px;
+    height: 500px;
+}
